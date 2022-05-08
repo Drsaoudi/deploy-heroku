@@ -18,7 +18,7 @@ jobs:
       - uses: akhileshns/heroku-deploy@master
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "akhileshns-hd-test-1"
+          heroku_app_name: "smohamed"
           heroku_email: "mohamed@saoudi.tk"
           appdir: "tests/test-1"
           healthcheck: "https://smohamed.herokuapp.com/"
